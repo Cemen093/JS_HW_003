@@ -1,0 +1,35 @@
+.game {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    border-width: 2px;
+    border-color: aqua;
+}
+
+.player{
+    display: flex;
+    flex-direction: row;
+    color: orange;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    margin: 10px;
+    padding: 50px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: red;
+    background-color: grey;
+}
